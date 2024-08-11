@@ -1,2 +1,88 @@
 @media screen and (max-width: 576px) {
+  * {
+    padding: 0 3px;
+  }
+
+  .nav-container {
+    max-width: 100%;
+  }
+  .nav-items {
+    display: none;
+  }
+  .bars-icon {
+    display: block;
+  }
+
+  .banner-content {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  #banner-description {
+    width: fit-content;
+  }
+
+  .banner-titel {
+    width: 100%;
+    height: 100%;
+    font-size: 4rem;
+  }
+
+  .banner-img img {
+    width: 70%;
+    margin-left: 80px;
+  }
+
+  .banner-text {
+    margin-top: 0px;
+  }
+
+  .box-1,
+  .box-2 {
+    width: 150px;
+    height: 80px;
+  }
+
+  .box-1 {
+    padding: 5px 10px;
+    margin-top: -370px;
+    margin-left: 250px;
+  }
+  .box-2 {
+    margin-top: 150px;
+    margin-left: 0px;
+    padding-left: 10px;
+    gap: 10px;
+  }
+
+  .habit-container {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+  }
+
+  #titel-habit {
+    font-size: 2.5rem;
+  }
+
+  #habit-description {
+    width: fit-content;
+    font-size: 1rem;
+  }
+
+  .runbox-section {
+    width: fit-content;
+  }
+
+  .runbox-container {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .runbox-text {
+    width: 100%;
+  }
+
+  .runbox-img {
+    width: 100%;
+  }
 }
