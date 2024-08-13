@@ -117,6 +117,7 @@ header {
 .box-2 {
   width: 193px;
   height: 98px;
+  position: absolute;
   box-sizing: border-box;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 12px;
@@ -131,17 +132,22 @@ header {
   background-color: orangered;
 }
 .box-1 {
+  top: 120px;
   padding: 15px;
-  margin-top: -420px;
-  margin-left: 250px;
+  left: 200px;
+  right: 0px;
 }
 .box-2 {
-  margin-top: 150px;
-  margin-left: -120px;
+  top: 410px;
+  right: 280px;
   display: flex;
   justify-content: center;
   align-items: center;
   justify-content: space-around;
+}
+
+.banner-img {
+  position: relative;
 }
 
 .habit-section {
@@ -218,4 +224,107 @@ header {
 .runbox-img img {
   width: 100%;
   border-radius: 20px;
+}
+
+.Bmi-section {
+  width: 100%;
+  height: auto;
+  margin-top: 80px;
+}
+
+.titel-bmi {
+  text-align: center;
+}
+
+.titel-bmi h1 {
+  font-size: 3.5rem;
+}
+
+.titel-bmi p {
+  color: gray;
+}
+.bmi-container {
+  width: 100%;
+  height: auto;
+  margin-top: 60px;
+  padding: 50px 0;
+  background: rgb(34, 34, 34);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.bmi-chart {
+  width: 40%;
+  height: auto;
+  text-align: center;
+}
+
+#titel-bmi {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+table,
+th,
+td {
+  border: 1px solid rgb(255, 255, 255);
+  padding: 10px 40px;
+  font-size: 2rem;
+}
+
+tbody,
+td {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.bmi-input .head-titel {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.head-titel h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+.head-titel p {
+  font-size: 1.2rem;
+  color: gray;
+}
+.input-form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+#width-change {
+  grid-column: 1 / span 2;
+}
+
+.input-form input {
+  width: 80%;
+  height: 30px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  padding: 12px 40px 12px 20px;
+  font-size: 1.2rem;
+}
+
+.select-input {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  border: none;
+  color: gray;
+  font-size: 1.2rem;
+  padding: 12px 40px 12px 20px;
+}
+.bmi-input {
+  width: 40%;
 }

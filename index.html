@@ -56,17 +56,18 @@
 
         <div class="banner-img">
           <img src="images/Images 2.png" alt="">
-
           <div class="box-1">
-            <h1>500+</h1>
-            <p>Free Workout Videos</p>
+            <div class="text-box">
+              <h1>500+</h1>
+              <p>Free Workout Videos</p>
+            </div>
           </div>
 
           <div class="box-2">
             <div class="div-ball">
 
             </div>
-            <div class="text">
+            <div class="text-box">
               <h1>350+</h1>
               <p>video tutorial</p>
             </div>
@@ -128,6 +129,74 @@
       </div>
     </div>
 
+  </section>
+
+  <section class="Bmi-section">
+    <div class="titel-bmi">
+      <h1>BMI Calculator</h1>
+      <p>input the hight and weight calculate Bmi</p>
+
+    </div>
+    <div class="bmi-container">
+      <div class="bmi-chart">
+        <h1 id="titel-bmi">BMI Calculate Chart</h1>
+
+        <table>
+          <thead>
+            <tr>
+              <th>BMI</th>
+              <th>Weight Status</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>Below 18.5</td>
+              <td>Underweight</td>
+            </tr>
+            <tr>
+              <td>18.5-24.9</td>
+              <td>Healthy</td>
+            </tr>
+            <tr>
+              <td>25.0-29.9</td>
+              <td>Overweight</td>
+            </tr>
+            <tr>
+              <td>30.0-and Abave</td>
+              <td>bese</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="bmi-input">
+        <div class="head-titel">
+          <h1>Calculate your BMI</h1>
+          <P>please input your information and calculate your BMI</P>
+        </div>
+
+        <form class="input-form">
+          <input type="text" placeholder="Height/cm">
+          <input type="text" placeholder="Weight/kg">
+          <input type="text" placeholder="Age">
+          <select name="gender" class="select-input">
+            <option value="volvo">SEX</option>
+            <option value="saab">Male</option>
+            <option value="opel">Femail</option>
+            <option value="audi">Third gender</option>
+          </select>
+
+          <select id="width-change" name="activity" class="select-input">
+            <option value="volvo" selected>Select an activity factor</option>
+            <option value="saab">Male</option>
+            <option value="opel">Femail</option>
+            <option value="audi">Third gender</option>
+          </select>
+        </form>
+        <button class="btn-primary">Calculate</button>
+      </div>
+    </div>
   </section>
 
 </body>

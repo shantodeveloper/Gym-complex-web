@@ -1,8 +1,4 @@
 @media screen and (max-width: 576px) {
-  * {
-    padding: 0 3px;
-  }
-
   .nav-container {
     max-width: 100%;
   }
@@ -11,6 +7,11 @@
   }
   .bars-icon {
     display: block;
+  }
+
+  .btn-primary,
+  .white-btn {
+    font-size: 1rem;
   }
 
   .banner-content {
@@ -25,7 +26,8 @@
   .banner-titel {
     width: 100%;
     height: 100%;
-    font-size: 4rem;
+    line-height: 60px;
+    font-size: 3rem;
   }
 
   .banner-img img {
@@ -37,6 +39,11 @@
     margin-top: 0px;
   }
 
+  .banner-img {
+    position: relative;
+    width: 100%;
+  }
+
   .box-1,
   .box-2 {
     width: 150px;
@@ -44,15 +51,21 @@
   }
 
   .box-1 {
-    padding: 5px 10px;
-    margin-top: -370px;
-    margin-left: 250px;
+    padding: 15px 10px;
+    margin-left: 60px;
   }
+
+  .text-box h1 {
+    font-size: 1.2rem;
+  }
+  .text-box p {
+    font-size: 0.8rem;
+  }
+
   .box-2 {
-    margin-top: 150px;
-    margin-left: 0px;
-    padding-left: 10px;
-    gap: 10px;
+    margin-top: -50px;
+    width: 130px;
+    height: 70px;
   }
 
   .habit-container {
@@ -82,7 +95,57 @@
     width: 100%;
   }
 
+  #box-titel {
+    font-size: 2.5rem;
+  }
+
+  #box-description {
+    font-size: 1rem;
+  }
   .runbox-img {
     width: 100%;
+  }
+
+  .bmi-container {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  #titel-bmi {
+    font-size: 1.5rem;
+  }
+
+  .titel-bmi h1 {
+    font-size: 2rem;
+  }
+
+  .bmi-chart {
+    width: fit-content;
+  }
+
+  .bmi-input {
+    width: fit-content;
+  }
+
+  .input-form input {
+    width: 50%;
+    height: 30px;
+    font-size: 0.8rem;
+  }
+
+  .select-input {
+    width: 100%;
+    font-size: 0.8rem;
+  }
+
+  .head-titel {
+    font-size: 2rem;
+  }
+
+  table,
+  th,
+  td {
+    font-size: 1rem;
+    padding: 10px 10px;
   }
 }
