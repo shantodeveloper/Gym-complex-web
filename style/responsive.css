@@ -178,6 +178,7 @@
     width: 100%;
     grid-template-columns: repeat(1, 1fr);
     gap: 40px;
+    padding-top: 20px;
   }
 
   .footer-logo-div {
@@ -210,5 +211,16 @@
   .box-2 {
     top: 300px;
     right: 200px;
+  }
+
+  .input-form input {
+    width: 50%;
+    height: auto;
+  }
+
+  .select-input {
+    width: 100%;
+    height: auto;
+    font-size: 0.8rem;
   }
 }
