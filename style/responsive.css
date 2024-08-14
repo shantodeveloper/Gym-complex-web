@@ -162,4 +162,53 @@
     width: fit-content;
     grid-template-columns: repeat(1, 1fr);
   }
+
+  .blog {
+    width: 100%;
+    height: auto;
+  }
+
+  .blog-container {
+    width: 100%;
+    gap: 25px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .footer-container {
+    width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 40px;
+  }
+
+  .footer-logo-div {
+    width: 100%;
+    padding-left: 10px;
+  }
+
+  .footer-nab {
+    width: 100%;
+    margin-left: 10px;
+  }
+  hr {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .box-1,
+  .box-2 {
+    width: 100px;
+    height: 70px;
+  }
+
+  .box-1 {
+    padding: 5px;
+    top: 80px;
+    margin-left: 10px;
+  }
+
+  .box-2 {
+    top: 300px;
+    right: 200px;
+  }
 }

@@ -12,13 +12,7 @@ body {
   background-color: black;
   color: white;
 }
-header {
-  background: linear-gradient(
-    180deg,
-    rgb(17, 17, 17),
-    rgba(119, 119, 119, 0) 100%
-  );
-}
+
 /* shared style strat  */
 .btn-primary {
   width: auto;
@@ -43,6 +37,15 @@ header {
   box-sizing: border-box;
   border: 1px solid rgb(255, 255, 255);
   border-radius: 40px;
+}
+
+/* header style start  */
+header {
+  background: linear-gradient(
+    180deg,
+    rgb(17, 17, 17),
+    rgba(119, 119, 119, 0) 100%
+  );
 }
 
 /* nav item style start  */
@@ -77,6 +80,8 @@ header {
 .bars-icon {
   display: none;
 }
+
+/* banner style start  */
 
 .banner-container {
   max-width: 100%;
@@ -150,6 +155,7 @@ header {
   position: relative;
 }
 
+/* habit style start  */
 .habit-section {
   max-width: 1400px;
   height: auto;
@@ -188,6 +194,7 @@ header {
   border-radius: 50px;
 }
 
+/* run box style start  */
 .runbox-section {
   width: 1200px;
   height: auto;
@@ -226,6 +233,7 @@ header {
   border-radius: 20px;
 }
 
+/* bmi section style start  */
 .Bmi-section {
   width: 100%;
   height: auto;
@@ -329,6 +337,8 @@ table {
   width: 40%;
 }
 
+/* meet section style start  */
+
 .meet-section {
   width: 100%;
   height: auto;
@@ -349,13 +359,13 @@ table {
 }
 
 .meet-container {
-  width: 1200px;
+  width: 1400px;
   height: auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
+  column-gap: 10px;
   margin: 40px auto;
-  padding: 15px;
+  padding: 10px;
   border-radius: 18px;
   background: rgba(255, 255, 255, 0.1);
 }
@@ -376,6 +386,87 @@ table {
 }
 .meet-images img {
   width: 100%;
-  height: 100%;
+  height: 95%;
   border-radius: 10px;
+}
+
+.titel-blog {
+  text-align: center;
+}
+
+.titel-blog h1 {
+  font-size: 3rem;
+  color: gold;
+}
+
+.titel-blog p {
+  font-size: 1rem;
+  color: gray;
+}
+
+/* blog section style start  */
+
+.blog-container {
+  width: 1400px;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+}
+
+.blog {
+  width: 400px;
+  height: auto;
+}
+
+.blog img {
+  width: 98%;
+  height: 50%;
+  border: 5px solid goldenrod;
+}
+
+/* footer section style start  */
+
+.footer-section {
+  width: 100%;
+  height: auto;
+  margin-top: 100px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.footer-nav-items a,
+li {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: white;
+  list-style: none;
+  color: gray;
+}
+
+.footer-container {
+  width: 1200px;
+  height: auto;
+  margin: 0 auto;
+  padding-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+}
+
+.footer-nab {
+  width: 100%;
+  height: auto;
+}
+
+.footer-logo-div {
+  width: 500px;
+  color: gray;
+}
+
+.footer-nab {
+  margin-left: 150px;
+}
+.footer-nab .footer-nav-items {
+  margin-top: 20px;
+  line-height: 40px;
 }
